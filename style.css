@@ -1,0 +1,110 @@
+.contenitore {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 600px;
+    flex-shrink: 900px;
+    flex-wrap: wrap;
+    background-color: rgb(120, 86, 215);
+  }
+  .testo {
+    max-width: 500px;
+    min-width: 300px;
+    color: white;
+  }
+  .testo button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+  }
+  .b1 {
+    color: white;
+  }
+  .contenitore img {
+    max-width: 500px;
+    min-width: 300px;
+  }
+  nav img {
+    width: 30px;
+    border-radius: 15px;
+  }
+  .b1 {
+    border: none;
+    background-color: transparent;
+  }
+  .b {
+    width: 30px;
+    border-radius: 15px;
+    border: none;
+  }
+  .b img {
+    width: 15px;
+  }
+  .corsi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    margin-block: 10px;
+  }
+  .divimg {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: lightyellow;
+    text-align: center;
+  }
+  
+  .corsi img {
+    width: 20px;
+  }
+  .riquadro {
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    gap: 20px;
+  }
+  .scritte {
+    max-width: 300px;
+  }
+  .scritte h4 {
+    margin-bottom: 0px;
+  }
+  .scritte p {
+    color: gray;
+  }
+  .caroselli {
+    background-color: rgb(231, 226, 226);
+  }
+  .carosello {
+    padding-top: 100px;
+  }
+  .carosello:last-of-type {
+    padding-bottom: 150px;
+  }
+  .carosello .card {
+    min-width: 100px;
+    min-height: 200px;
+  }
+  h2 {
+    margin-block: 20px;
+  }
+  footer {
+    background-color: rgb(231, 226, 226);
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25%;
+    border-top: 1px rgb(108, 104, 104) solid;
+
+  }
+  footer a {
+    text-decoration: none;
+    color: gray;
+    margin-inline: 10px;
+    
+  }
+  
